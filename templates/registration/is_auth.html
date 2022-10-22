@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    {% if user.is_authenticated %}
+
+        <h1>Користувач аутентифікований</h1>
+        <a href="{% url 'authentication:logout' %}">Вийти</a>
+    {% else %}
+        <h1>Користувач не автентифікований</h1>
+        <a href="{% url 'authentication:login' %}">Увійти</a>
+        <br>
+        <a href="{% url 'authentication:register' %}">Реєстрація</a>
+    {% endif %}
+
+{% endblock content %}

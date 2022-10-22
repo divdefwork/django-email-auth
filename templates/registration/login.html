@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p}}
+        <button type="submit">Увійти</button>
+        <a href="{% url 'authentication:register' %}">
+            не маєте акаунта? Зареєструватися
+        </a>
+    </form>
+
+{% endblock content %}
