@@ -17,3 +17,7 @@
 ### [GitHub](https://github.com/hsnkh12/django-email-auth-blog)
 
 ---
+
+```bash
+pip3 freeze > requirements.txt
+```
