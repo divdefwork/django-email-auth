@@ -1,4 +1,4 @@
-## [✅ Аутентифікація Django за допомогою електронної адреси](https://hassanelabdallah.hashnode.dev/django-authentication-using-email-address)
+### [✅ Аутентифікація Django за допомогою електронної адреси](https://hassanelabdallah.hashnode.dev/django-authentication-using-email-address)
 
 <details>
 <summary> ЗМІСТ </summary>
@@ -14,7 +14,7 @@
   - [**Частина 5**: Додавання шаблонів HTML](https://hassanelabdallah.hashnode.dev/django-authentication-using-email-address#heading-part-5-adding-html-templates)
 </details>
 
-### [GitHub](https://github.com/hsnkh12/django-email-auth-blog)
+#### [GitHub](https://github.com/hsnkh12/django-email-auth-blog)
 
 ---
 
