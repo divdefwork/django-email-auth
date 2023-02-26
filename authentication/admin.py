@@ -19,8 +19,8 @@ class CustomUserAdmin(UserAdmin):
     fieldsets = (
         (None, {
             'fields': (
-                ('get_html_photo', 'avatar'),
                 ('username', 'email'), 'password',
+                ('get_html_photo', 'avatar'),
             )
         }
          ),
@@ -54,8 +54,6 @@ class CustomUserAdmin(UserAdmin):
         return 'No photo'
 
     get_html_photo.short_description = "Аватарка"
-
-
 
 # class CustomUserAdmin(UserAdmin):
 #     model = User
