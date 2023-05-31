@@ -1,7 +1,7 @@
-asgiref==3.6.0
+asgiref==3.7.2
 astroid==2.15.5
 cffi==1.15.1
-cryptography==40.0.2
+cryptography==41.0.0
 dill==0.3.6
 Django==4.2.1
 django-appconf==1.0.5
@@ -17,5 +17,5 @@ python-decouple==3.8
 sqlparse==0.4.4
 tomli==2.0.1
 tomlkit==0.11.8
-typing_extensions==4.5.0
+typing_extensions==4.6.2
 wrapt==1.15.0
